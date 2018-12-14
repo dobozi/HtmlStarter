@@ -1,11 +1,74 @@
-# HtmlStarter
-<strong>Below we have the emmet syntax to generate a html page that we will use in our next lesson.</strong>
-
-<p><b>Step 1: <b></p>
-<pre><code>
-html>head>meta[charset=utf-8]+link+title{Azimut-Travel diaries}^body>div[id=main_wrapper]>div[id=header]>div[id=main_title]>img[src][alt="Logo de Azimut"][id=logo]>h1{Azimut}^h2{Travel Diaries}^nav>ul>li*4>a^^^^div[banner_image]>div[id=banner_description]{Reflections on my holiday througth the HTML world...}>a.red_button{See article}>img^^^section>article>h1>img{I'm a great traveller}^p>lorem^^aside>h1{About the author}+img[id=arrow]+p[zozor_picture]>img^p{Let me introduce myself}+p{A bit messy}+p>img>img>img^^^^^footer>div[id=tweet]>h1{My last tweet}+p{Hee-haw!}+p{13/12/2018 17:03}^div[id=my_pictures]>h1{My pictures}+p>img+img+img+img^^div[id=myfriends]>h1{My friends}+ul>li*4>a{Update 1}^^ul>li*4>a{second update}
-</pre></code>
-  
-  <p> <b>Step 2: <b></p>
-  Replace <pre><code>div id="header"</pre></code> with <pre><code>header</pre></code> and update the <pre><code>header</pre></code> closing tag as well.
-    
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="">
+    <title>Azimut-Travel diaries</title>
+</head>
+<body>
+    <div id="main_wrapper">
+        <header>
+            <div id="main_title">
+                <img src="" alt="Logo de Azimut" id="logo">
+                    <h1>Azimut</h1>
+                <h2>Travel Diaries</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Venezia</a></li>
+                    <li><a href="">Beijing</a></li>
+                    <li><a href="">Stockholm</a></li>
+                    <li><a href="">Creta</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div banner_image="">
+            <div id="banner_description">Reflections on my holiday througth the HTML world...<a href="" class="red_button">See article<img src="" alt=""></a></div>
+        </div>
+        <section>
+            <article>
+                <h1><img src="" alt="">I'm a great traveller</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, consequatur laborum? Laboriosam aliquid officiis harum autem enim ipsa quasi consectetur amet neque perspiciatis ut cum omnis, obcaecati placeat minima nostrum?</p>
+            </article>
+            <aside>
+                <h1>About the author</h1>
+                <img src="" alt="" id="arrow">
+                <p zozor_picture=""><img src="" alt=""></p>
+                <p>Let me introduce myself</p>
+                <p>A bit messy</p>
+                <p><img src="" alt=""><img src="" alt=""><img src="" alt=""></p>
+            </aside>
+        </section>
+        <footer>
+            <div id="tweet">
+                <h1>My last tweet</h1>
+                <p>Hee-haw!</p>
+                <p>13/12/2018 17:03</p>
+            </div>
+            <div id="my_pictures">
+                <h1>My pictures</h1>
+                <p>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </p>
+            </div>
+            <div id="myfriends">
+                <h1>My friends</h1>
+                <ul>
+                    <li><a href="">Update 1</a></li>
+                    <li><a href="">Update 1</a></li>
+                    <li><a href="">Update 1</a></li>
+                    <li><a href="">Update 1</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">second update</a></li>
+                    <li><a href="">second update</a></li>
+                    <li><a href="">second update</a></li>
+                    <li><a href="">second update</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
